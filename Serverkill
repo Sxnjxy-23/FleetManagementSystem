@@ -1,0 +1,25 @@
+To stop the Node.js server when the port is in use, you can use the following commands in your terminal (PowerShell):
+
+Find the Process ID (PID) using the port:
+powershell
+netstat -ano | findstr :5000
+This will show a line like TCP    0.0.0.0:5000    0.0.0.0:0    LISTENING    12345. The last number (e.g., 12345) is the PID.
+Kill the process using that PID:
+powershell
+taskkill /PID 12345 /F
+(Replace 12345 with the actual PID you found).
+
+To run server:
+
+cd server
+npm install
+node index.js
+
+To run front end:
+
+npm run dev
+
+
+Run node simulate_gps.js.
+Register a vehicle with ID ESP32_TEST in the web app.
+Verify that the map shows the vehicle at the specified coordinates.
