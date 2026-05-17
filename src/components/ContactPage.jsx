@@ -65,7 +65,7 @@ const ContactPage = ({ onNavigate }) => {
       <div className="bg-gray-900 border-b border-gray-800 p-6">
         <div className="flex items-center space-x-3">
           <button
-            onClick={() => onNavigate('landing')}
+            onClick={() => onNavigate('dashboard')}
             className="text-gray-400 hover:text-cyan-400 transition-colors"
           >
             ← Back
