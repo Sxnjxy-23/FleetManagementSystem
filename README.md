@@ -73,8 +73,8 @@ LiveIn/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/Sxnjxy-23/FleetManagement-ViolationDetection-System.git
-cd FleetManagement-ViolationDetection-System
+git clone https://github.com/Sxnjxy-23/FleetManagementSystem.git
+cd FleetManagementSystem
 ```
 
 ### 2. Install frontend dependencies

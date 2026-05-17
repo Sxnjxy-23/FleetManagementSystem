@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"c:/Users/2480068/clg/LiveIn\" remote -v)",
+      "Bash(git -C \"c:/Users/2480068/clg/LiveIn\" status)",
+      "Bash(git -C \"c:/Users/2480068/clg/LiveIn\" remote set-url origin https://github.com/Sxnjxy-23/FleetManagementSystem.git)"
+    ]
+  }
+}
